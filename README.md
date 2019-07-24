@@ -1,6 +1,6 @@
 # Adventures-in-Supersingularland-Data
 
-Data associated with the article Adventures in Supersingularland.
+Data and code associated with the article Adventures in Supersingularland.
 
 Authors: Sarah Arpin, Catalina Camacho-Navarro, Kristin Lauter, Joelle Lim, Kristina Nelson, Travis Scholl, Jana Sotáková.
 
