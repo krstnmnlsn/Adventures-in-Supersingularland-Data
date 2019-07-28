@@ -1,7 +1,7 @@
 
 # For primes between 50,000 and 100,000, 1000 conjugate pairs and 1000 arbitrary
-# pairs were tested with the following method. The output is stored in Opposite
-# Pairs 1000 Random.csv.
+# pairs were tested with the following method. The output is stored in Pairs 
+# Through Fp Random Sampling.csv.
 def how_many_vertices_admit_shortest_paths_that_touch_Fp_1000(p):
     # Given a prime p, we select 1000 random pairs of vertices and comput C, the
     # number of those pairs which have a shortest path that goes through F_p. We
@@ -81,7 +81,7 @@ def how_many_vertices_admit_shortest_paths_that_touch_Fp(p):
     return Cconj, Tconj, C,T
 
 # Primes between 1000 and 5000 were tested with the following method. The output
-# was stored in Pairs Through Random.csv.
+# was stored in Pairs Through a Random Subgraph.csv.
 def how_many_vertices_admit_shortest_paths_that_touch_rand_10(p):
     # Given a prime p, this returns a tuple [Cconj,Tconj, C, T]. We first pick a
     # random subset of the graph, H. Then Cconj is the number of times a vertex
@@ -129,8 +129,8 @@ def how_many_vertices_admit_shortest_paths_that_touch_rand_10(p):
 # between 10253 and 65437. Primes were all 1 mod 4, and chosen to be spaced at
 # least 200 apart. For each prime, the distance between 100 random pairs of
 # vertices was calculated, as well as the average distance between all
-# components of the Fp subgraph. The output was stored in Distances of
-# Components 1 mod 4.csv.
+# components of the Fp subgraph. The output was stored in Distances Between
+# Random Pairs and Components 1 mod 4.csv.
 DATA = []
 count = 0
 while p < 100000:
