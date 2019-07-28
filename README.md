@@ -28,3 +28,4 @@ __Walk.sage__ Contains the isogeny-graph generating function.
 
 __Attachment.py__ Contains the script used to test whether attachment occured for primes between 50,000 and 100,000.
 
+__Paths_Through_Fp_and_Distances.py__ Contains the functions and script used to compute data about when the shortest path between vertices went through the Fp subgraph, as well as the distances between random components. Output stored in Pairs Through a Random Subgraph.csv, Pairs Through Fp Small.csv, Pairs Through Fp Random Sampling.csv and Distances Between Random Pairs and Components 1 mod 4.csv.
