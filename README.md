@@ -20,7 +20,7 @@ __Pairs Through Fp Random Sampling.csv__ For primes between 50,000 and 100,000, 
 
 __Pairs Through Fp Small.csv__ For primes between 1000 and 5000, lists the number of times a vertex in the graph had a shortest path to its conjugate passing through Fp, the total number of conjugate pairs, the number of times a pair of vertices in the graph had a shortest path passing through Fp, and the total number of vertex pairs.
 
-__Pairs Through a Random Subgraph.csv__ For primes between 1000 and 5000, lists the number of times a vertex in the graph had a shortest path to its conjugate passing through H, a random subgraph. Also Lists the total number of conjugate pairs, the number of times a pair of vertices in the graph had a shortest path passing through H, and the total number of vertex pairs.
+__Pairs Through a Random Subgraph.csv__ For primes between 1000 and 5000, lists the number of times a vertex in the graph had a shortest path to its conjugate passing through one of 10 random subgraphs. Also Lists the total number of conjugate pairs, the number of times a pair of vertices in the graph had a shortest path passing through the random subgraphs, and the total number of vertex pairs.
 
 ## Code
 
