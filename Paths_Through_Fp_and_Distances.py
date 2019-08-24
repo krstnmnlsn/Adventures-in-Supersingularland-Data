@@ -83,12 +83,13 @@ def how_many_vertices_admit_shortest_paths_that_touch_Fp(p):
 # Primes between 1000 and 5000 were tested with the following method. The output
 # was stored in Pairs Through a Random Subgraph.csv.
 def how_many_vertices_admit_shortest_paths_that_touch_rand_10(p):
-    # Given a prime p, this returns a tuple [Cconj,Tconj, C, T]. We first pick a
-    # random subset of the graph, H. Then Cconj is the number of times a vertex
-    # in the graph had a shortest path to its conjugate vertex passing through
-    # H. Tconj is the total number of conjugate pairs in the graph. C is the
-    # number of times a pair of vertices in the graph had a shortest path
-    # passing through H. T is the total number of unique pairs of vertices.
+    # Given a prime p, this returns a tuple [Cconj,Tconj, C, T]. The data is
+    # collected from 10 random subsets of the graph. Cconj is the number of times
+    # a vertex in the graph had a shortest path to its conjugate vertex passing
+    # through one of the subgraphs. Tconj is the total number of conjugate pairs
+    # in the graph. C is the number of times a pair of vertices in the graph had
+    # a shortest path passing through one of the random subgraphs. T is the total
+    # number of unique pairs of vertices.
     
     # Load the graph G and the list of distances between vertices D.
     G, D = load_graph_data(p)
